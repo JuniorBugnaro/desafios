@@ -49,6 +49,15 @@ a:hover {
     text-decoration: underline;
 }
 
+@media (max-width: 800px) {
+    body {
+        font-size: 10px;
+    }
+
+    p {
+        line-height: 30px;
+    }
+}
 section {
     font-family: var(--fonte3);
     font-size: 2em;
